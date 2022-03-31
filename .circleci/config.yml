@@ -38,4 +38,5 @@ workflows:
       - build
       - development:
           type: approval
-          requires: build
+          requires: 
+            - build
